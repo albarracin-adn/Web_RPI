@@ -1,0 +1,19 @@
+@media screen and (max-width:480px) {
+    /* Total página */
+    body {
+        margin: auto;
+    }
+    /* Banner */
+    .Cabecera { 
+        width: 100%;
+        margin: auto;
+        position: sticky; /* para que este totalmente en sticky hay que quitar el height del body*/
+        top: 0;
+        z-index: 1;
+    }
+    .Cabecera img {
+        height: 5em;
+    }
+    
+    
+}
