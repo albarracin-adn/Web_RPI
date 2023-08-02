@@ -1,19 +1,70 @@
-@media screen and (max-width:480px) {
-    /* Total página */
-    body {
-        margin: auto;
+@media screen and (max-width: 480px) {
+  /* Total página */
+
+  /* Banner */
+  .Cabecera {
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .Cabecera img {
+    height: 5em;
+  }
+  /* Menú */
+  .Menu {
+    width: 99%;
+    display: block;
+    position: sticky;
+    z-index: 1;
+    top: 5em;
+  }
+  .enlaces-menu {
+    display: none;
+    flex-direction: column;
+    opacity: 0;
+  }
+  @keyframes muestraMenu {
+    from {
+      opacity: 0;
     }
-    /* Banner */
-    .Cabecera { 
-        width: 100%;
-        margin: auto;
-        position: sticky; /* para que este totalmente en sticky hay que quitar el height del body*/
-        top: 0;
-        z-index: 1;
+    to {
+      opacity: 1;
     }
-    .Cabecera img {
-        height: 5em;
-    }
-    
-    
+  }
+  .enlaces-menu li {
+    float: none;
+  }
+
+  .enlaces-menu.activado {
+    display: flex;
+    animation: muestraMenu 350ms ease-in-out both;
+  }
+  /* Botón menú */
+  .ham {
+    display: block;
+
+    margin-left: 3px;
+    transition: 0.3s 0.2s;
+  }
+  .ham:hover {
+    transform: rotate(360deg);
+  }
+  /* Animación botón */
+  .br-1.animado {
+    transform: rotate(-45deg) translate(-5px, 8px);
+  }
+  .br-2.animado {
+    opacity: 0;
+  }
+  .br-3.animado {
+    transform: rotate(45deg) translate(-5px, -8px);
+  }
+  /* Reloj */
+  #capareloj {
+    position: absolute;
+    top: 1em;
+    right: 0.5em;
+  }
 }
