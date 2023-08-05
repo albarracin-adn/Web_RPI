@@ -1,60 +1,65 @@
 ﻿.maps {
-	margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 .maps iframe {
-	width: 90%;
-	height: 15%;
-	padding: 0% 0% 0% 3%;
+  width: 90%;
+  height: 15%;
+  padding: 0% 0% 0% 3%;
 }
 
 .maps small a {
-	padding: 0% 0% 2% 3%;
-	color: #0000FF;
-	text-align: left;
+  padding: 0% 0% 2% 3%;
+  color: #0000ff;
+  text-align: left;
 }
 
 .maps p {
-	padding: 3% 0% 0% 3%;
-	font-weight: bold;
+  padding: 3% 0% 0% 3%;
+  font-weight: bold;
 }
 
 /* contenedor formulario */
 .contacto {
-	padding: 0% 0% 0% 3%;
-	overflow: auto;
+  padding: 0% 0% 0% 3%;
+  overflow: auto;
 }
 
 /* Formulario */
 
 .formulario {
-	list-style-type: none;
-	list-style-position: outside;
+  list-style-type: none;
+  list-style-position: outside;
 }
 
 .titulo1 {
-	display: inline-block;
-	font-weight: bold;
-	clear: both;
-	margin-left: -6%;
+  display: inline-block;
+  font-weight: bold;
+  clear: both;
+  margin-left: -6%;
 }
 
 .campos {
-	margin-left: 3%;
-	display: inline-block;
-	vertical-align: top;
+  margin-left: 3%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #Email {
-	width: 106%;
+  width: 106%;
 }
 
 sub {
-
-	margin-bottom: 5%;
-	display: block;
+  margin-bottom: 5%;
+  display: block;
 }
 
 .boton {
-	margin-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  #titulo_espaciado {
+    margin-top: 4.5em;
+  }
 }

@@ -1,12 +1,18 @@
 ﻿#rss {
-	font-size: 10px;
-	text-align: center;
-	width: 650px;
+  font-size: 10px;
+  text-align: center;
+  width: 650px;
 }
 #rss a {
-	color: #CCCCCC;
+  color: #cccccc;
 }
 #noticias {
-	padding-left: 10px;
-	padding-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* versión móvil */
+@media screen and (max-width: 768px) {
+  #noticias {
+    margin-top: 11%;
+  }
 }

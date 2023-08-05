@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   /* Total página */
 
   /* Banner */
@@ -10,15 +10,16 @@
     z-index: 2;
   }
   .Cabecera img {
-    height: 5em;
+    height: 9em;
   }
   /* Menú */
   .Menu {
-    width: 99%;
+    width: 100%;
     display: block;
     position: sticky;
     z-index: 1;
-    top: 5em;
+    top: 9em;
+    border: none;
   }
   .enlaces-menu {
     display: none;
@@ -66,5 +67,34 @@
     position: absolute;
     top: 1em;
     right: 0.5em;
+  }
+  /* Aside */
+  .buscador {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    left: 1em;
+    top: 0.1em;
+    width: auto;
+  }
+  .audio {
+    display: none;
+  }
+  .enlaces {
+    display: none;
+  }
+  /* contenedor página */
+  .contenedor {
+    width: 100%;
+  }
+  .izquierda {
+    width: 100%;
+  }
+  .titulo_primero {
+    margin-top: 3em;
+  }
+  /* Pie página */
+  .Pie {
+    width: 99.5%;
   }
 }
