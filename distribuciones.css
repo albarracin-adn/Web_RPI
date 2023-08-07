@@ -1,11 +1,16 @@
 .distribucion {
-	margin: 2% 2% 2% 2%;
+  margin: 2% 2% 2% 2%;
 }
 .sistema {
-	margin-left: 2%;
+  margin-left: 2%;
 }
 .imagen {
-	margin: 1% auto;
-	width: 70%;
-	display: table;
+  margin: 1% auto;
+  width: 70%;
+  display: table;
+}
+@media screen and (max-width: 768px) {
+  .izquierda {
+    margin-top: 3.5em;
+  }
 }
