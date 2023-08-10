@@ -98,3 +98,8 @@
     width: 99.5%;
   }
 }
+@media screen and (max-width: 545px) {
+  .titulo_primero {
+    margin-top: 5em;
+  }
+}
