@@ -7,9 +7,20 @@
 .video {
   margin: 1% auto;
   display: table;
+  width: 520px;
+  height: 315px;
 }
 @media screen and (max-width: 768px) {
   .izquierda {
     margin-top: 3.5em;
+  }
+}
+@media screen and (max-width: 545px) {
+  .izquierda {
+    margin-top: 4em;
+  }
+  .video {
+    width: 350px;
+    height: 215px;
   }
 }

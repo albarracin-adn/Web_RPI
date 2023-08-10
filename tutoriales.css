@@ -37,6 +37,11 @@
 /* versión móvil */
 @media screen and (max-width: 768px) {
   .marco {
-    margin-top: 11%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 545px) {
+  .marco {
+    margin-top: 6em;
   }
 }
