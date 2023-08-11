@@ -1,37 +1,43 @@
 .Titulo_SD {
-	margin-left: 1%;
+  margin-left: 1%;
 }
 
 .content_SD {
-	margin-left: 1%;
-	margin-bottom: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
 }
 
 .imagen_SD {
-	margin: 1% auto;
-	display: table;
+  margin: 1% auto;
+  display: table;
 }
 
 .imagen_grande {
-	margin: 1% auto;
-	display: table;
-	width: 70%;
-
+  margin: 1% auto;
+  display: table;
+  width: 70%;
 }
 
 .elemento {
-	text-align: center;
-	display: block;
+  text-align: center;
+  display: block;
 }
 
 .imagen_indice {
-	margin: 1% auto;
-	display: inline-block;
+  margin: 1% auto;
+  display: inline-block;
 }
 
 .imagen_derecha {
-	margin: 1% auto;
-	display: inline-block;
-	width: 16%;
-	height: 16%;
+  margin: 1% auto;
+  display: inline-block;
+  width: 16%;
+  height: 16%;
+}
+
+@media screen and (max-width: 544px) {
+  .imagen_SD {
+    width: 90%;
+    position: relative;
+  }
 }
