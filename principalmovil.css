@@ -101,4 +101,8 @@
   .izquierda {
     margin-top: 5em;
   }
+  /* Pie página */
+  .Pie {
+    width: 98.5%;
+  }
 }
